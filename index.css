@@ -11,3 +11,115 @@
 body{
     background-color: black;
 }
+#triBut{
+    background-color: #ffffff;
+    border: 1px black;
+    color: rgb(0, 0, 0);
+    width: 275px;
+    height: 100px;
+  text-align: center;
+  text-decoration: none;
+  font-family: "OpenDyslexic 3";
+  font-size: 32px;
+  display: block;
+}
+#squBut{
+    background-color: #ffffff;
+    border: 1px black;
+    color: rgb(0, 0, 0);
+    width: 275px;
+    height: 100px;
+  text-align: center;
+  text-decoration: none;
+  font-family: "OpenDyslexic 3";
+  font-size: 32px;
+  display: block;
+}
+#penBut{
+    background-color: #ffffff;
+    border: 1px black;
+    color: rgb(0, 0, 0);
+    width: 275px;
+    height: 100px;
+  text-align: center;
+  text-decoration: none;
+  font-family: "OpenDyslexic 3";
+  font-size: 32px;
+  display: block;
+}
+#hexBut{
+    background-color: #ffffff;
+    border: 1px black;
+    color: rgb(0, 0, 0);
+    width: 275px;
+    height: 100px;
+  text-align: center;
+  text-decoration: none;
+  font-family: "OpenDyslexic 3";
+  font-size: 32px;
+  display: block;
+}
+#sepBut{
+    background-color: #ffffff;
+    border: 1px black;
+    color: rgb(0, 0, 0);
+    width: 275px;
+    height: 100px;
+  text-align: center;
+  text-decoration: none;
+  font-family: "OpenDyslexic 3";
+  font-size: 32px;
+  display: block;
+}
+#octBut{
+    background-color: #ffffff;
+    border: 1px black;
+    color: rgb(0, 0, 0);
+    width: 275px;
+    height: 100px;
+  text-align: center;
+  text-decoration: none;
+  font-family: "OpenDyslexic 3";
+  font-size: 32px;
+  display: block;
+}
+#nonBut{
+    background-color: #ffffff;
+    border: 1px black;
+    color: rgb(0, 0, 0);
+    width: 275px;
+    height: 100px;
+  text-align: center;
+  text-decoration: none;
+  font-family: "OpenDyslexic 3";
+  font-size: 32px;
+  display: block;
+}
+#decBut{
+    background-color: #ffffff;
+    border: 1px black;
+    color: rgb(0, 0, 0);
+    width: 275px;
+    height: 100px;
+  text-align: center;
+  text-decoration: none;
+  font-family: "OpenDyslexic 3";
+  font-size: 32px;
+  display: block;
+}
+#autoMineBut{
+    background-color: #ffffff;
+    border: 1px black;
+    color: rgb(0, 0, 0);
+    width: 275px;
+    height: 100px;
+  text-align: center;
+  text-decoration: none;
+  font-family: "OpenDyslexic 3";
+  font-size: 32px;
+  display: block;
+}
+#div1{
+  position: absolute;
+  right: 0px;
+}
