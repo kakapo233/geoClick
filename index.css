@@ -123,3 +123,28 @@ body{
   position: absolute;
   right: 0px;
 }
+
+#triSVG{
+  fill: red;
+}
+#triSVGPos{
+  position: absolute;
+  left: 0px;
+  top: 100px;
+  height: 61.8px !important;
+  width: 61.8px !important;
+  overflow: visible;
+  padding: 0px;
+}
+#squSVG{
+  fill: aquamarine;
+}
+#squSVGPos{
+  position: absolute;
+  left: 300px;
+  top: 100px;
+  height: 61.8px !important;
+  width: 61.8px !important;
+  overflow: visible;
+  padding: 0px;
+}
