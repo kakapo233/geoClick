@@ -141,10 +141,46 @@ body{
 }
 #squSVGPos{
   position: absolute;
-  left: 300px;
+  left: 100px;
   top: 100px;
   height: 61.8px !important;
   width: 61.8px !important;
+  overflow: visible;
+  padding: 0px;
+}
+#penSVG{
+  fill: rgb(88, 75, 143);
+}
+#penSVGPos{
+  position: absolute;
+  left: 200px;
+  top: 100px;
+  height: 101px !important;
+  width: 96px !important;
+  overflow: visible;
+  padding: 0px;
+}
+#hexSVG{
+  fill: rgb(204, 40, 122);
+}
+#hexSVGPos{
+  position: absolute;
+  left: 300px;
+  top: 100px;
+  height: 124px !important;
+  width: 108px !important;
+  overflow: visible;
+  padding: 0px;
+}
+#sepSVG{
+  fill: rgb(16, 206, 48);
+}
+#sepSVGPos{
+  position: absolute;
+  left: 400px;
+  top: 100px;
+  height: 124px !important;
+  width: 108px !important;
   overflow: visible;
   padding: 0px;
 }
