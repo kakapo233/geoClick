@@ -184,3 +184,15 @@ body{
   overflow: visible;
   padding: 0px;
 }
+#octSVG{
+  fill: rgb(206, 76, 16);
+}
+#octSVGPos{
+  position: absolute;
+  left: 500px;
+  top: 100px;
+  height: 124px !important;
+  width: 108px !important;
+  overflow: visible;
+  padding: 0px;
+}
