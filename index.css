@@ -196,3 +196,27 @@ body{
   overflow: visible;
   padding: 0px;
 }
+#nonSVG{
+  fill: rgb(42, 22, 224);
+}
+#nonSVGPos{
+  position: absolute;
+  left: 600px;
+  top: 100px;
+  height: 124px !important;
+  width: 108px !important;
+  overflow: visible;
+  padding: 0px;
+}
+#decSVG{
+  fill: rgb(42, 22, 224);
+}
+#decSVGPos{
+  position: absolute;
+  left: 700px;
+  top: 100px;
+  height: 191px !important;
+  width: 200px !important;
+  overflow: visible;
+  padding: 0px;
+}
