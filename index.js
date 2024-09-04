@@ -70,26 +70,27 @@ buy_Auto_Mine();
 currencyDisplay();
 
 function triClick(){
-    currencyCount= currencyCount+valOfTri;
+    let currencyCount = currencyCount+valOfTri;
     currencyDisplay();
 }
 function squClick(){
-    currencyCount= currencyCount+valOfSqu;
+    let currencyCount = currencyCount+valOfSqu;
     currencyDisplay();
+    
 }
 function penClick(){
-    currencyCount= currencyCount+valOfPen;
+    let currencyCount = currencyCount+valOfPen;
     currencyDisplay();
 }
 function hexClick(){
-    currencyCount= currencyCount+valOfHex;
+    let currencyCount = currencyCount+valOfHex;
     currencyDisplay();
 }
 function sepClick(){
-    currencyCount= currencyCount+valOfSep;
+    let currencyCount = currencyCount+valOfSep;
     currencyDisplay();
 }
 function octClick(){
-    currencyCount= currencyCount+valOfOct;
+    let currencyCount = currencyCount+valOfOct;
     currencyDisplay();
 }
