@@ -33,6 +33,7 @@ function currencyDisplay(){
 
 function buyTri(){
     document.getElementById("triBut").innerHTML = "triangle<br/>⌬"+String(baseShapeCost[0]);
+    console.log("buyTri")
 }
 function buySqu(){
     document.getElementById("squBut").innerHTML = "square<br/>⌬"+String(baseShapeCost[1]);
@@ -54,31 +55,32 @@ function buy_Auto_Mine(){
 }
 
 function shopTri(){
-    currencyCount-baseShapeCost[0];
+    currencyCount= currencyCount-baseShapeCost[0];
     currencyDisplay();
+    console.log("shopTri")
 }
 function shopSqu(){
-    currencyCount-baseShapeCost[1];
+    currencyCount= currencyCount-baseShapeCost[1];
     currencyDisplay();
 }
 function shopPen(){
-    currencyCount-baseShapeCost[2];
+    currencyCount= currencyCount-baseShapeCost[2];
     currencyDisplay();
 }
 function shopHex(){
-    currencyCount-baseShapeCost[3];
+    currencyCount= currencyCount-baseShapeCost[3];
     currencyDisplay();
 }
 function shopSep(){
-    currencyCount-baseShapeCost[4];
+    currencyCount= currencyCount-baseShapeCost[4];
     currencyDisplay();
 }
 function shopOct(){
-    currencyCount-baseShapeCost[5];
+    currencyCount= currencyCount-baseShapeCost[5];
     currencyDisplay();
 }
 function shopMine(){
-    currencyCount-baseShapeCost[6];
+    currencyCount= currencyCount-baseShapeCost[6];
     currencyDisplay();
 }
 
@@ -94,6 +96,7 @@ currencyDisplay();
 function triClick(){
     currencyCount = currencyCount+3;
     currencyDisplay();
+    console.log("triClick")
 }
 function squClick(){
     currencyCount = currencyCount+valOfSqu;
