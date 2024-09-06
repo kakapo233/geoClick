@@ -28,36 +28,58 @@ var valOfOct=8;
 
 function currencyDisplay(){
     document.getElementById("currencyCo").innerHTML = "⌬"+String(currencyCount);
+    console.log("curDis")
 }
 
 function buyTri(){
     document.getElementById("triBut").innerHTML = "triangle<br/>⌬"+String(baseShapeCost[0]);
-    currencyCount-baseShapeCost[0];
-    
 }
 function buySqu(){
     document.getElementById("squBut").innerHTML = "square<br/>⌬"+String(baseShapeCost[1]);
-    currencyCount-baseShapeCost[1];
 }
 function buyPen(){
     document.getElementById("penBut").innerHTML = "pentagon<br/>⌬"+String(baseShapeCost[2]);
-    currencyCount-baseShapeCost[2];
 }
 function buyHex(){
     document.getElementById("hexBut").innerHTML = "hexagon<br/>⌬"+String(baseShapeCost[3]);
-    currencyCount-baseShapeCost[3];
 }
 function buySep(){
-    document.getElementById("sepBut").innerHTML = "septagon<br/>⌬"+String(baseShapeCost[4]);
-    currencyCount-baseShapeCost[4];
+    document.getElementById("sepBut").innerHTML = "septagon<br/>⌬"+String(baseShapeCost[4]);  
 }
 function buyOct(){
-     document.getElementById("octBut").innerHTML = "octagon<br/>⌬"+String(baseShapeCost[5]);
-     currencyCount-baseShapeCost[5];
+     document.getElementById("octBut").innerHTML = "octagon<br/>⌬"+String(baseShapeCost[5]);  
 }
 function buy_Auto_Mine(){
     document.getElementById("autoMineBut").innerHTML = "auto mine<br/>⌬"+String(baseShapeCost[6]);
+}
+
+function shopTri(){
+    currencyCount-baseShapeCost[0];
+    currencyDisplay();
+}
+function shopSqu(){
+    currencyCount-baseShapeCost[1];
+    currencyDisplay();
+}
+function shopPen(){
+    currencyCount-baseShapeCost[2];
+    currencyDisplay();
+}
+function shopHex(){
+    currencyCount-baseShapeCost[3];
+    currencyDisplay();
+}
+function shopSep(){
+    currencyCount-baseShapeCost[4];
+    currencyDisplay();
+}
+function shopOct(){
+    currencyCount-baseShapeCost[5];
+    currencyDisplay();
+}
+function shopMine(){
     currencyCount-baseShapeCost[6];
+    currencyDisplay();
 }
 
 buyTri();
@@ -70,27 +92,26 @@ buy_Auto_Mine();
 currencyDisplay();
 
 function triClick(){
-    let currencyCount = currencyCount+valOfTri;
+    currencyCount = currencyCount+3;
     currencyDisplay();
 }
 function squClick(){
-    let currencyCount = currencyCount+valOfSqu;
+    currencyCount = currencyCount+valOfSqu;
     currencyDisplay();
-    
 }
 function penClick(){
-    let currencyCount = currencyCount+valOfPen;
+    currencyCount = currencyCount+valOfPen;
     currencyDisplay();
 }
 function hexClick(){
-    let currencyCount = currencyCount+valOfHex;
+    currencyCount = currencyCount+valOfHex;
     currencyDisplay();
 }
 function sepClick(){
-    let currencyCount = currencyCount+valOfSep;
+    currencyCount = currencyCount+valOfSep;
     currencyDisplay();
 }
 function octClick(){
-    let currencyCount = currencyCount+valOfOct;
+    currencyCount = currencyCount+valOfOct;
     currencyDisplay();
 }
