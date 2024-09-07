@@ -1,7 +1,7 @@
 /* clicker game*/
 /* PT102 */
 /* Seamus Geoghegan */
-var currencyCount=1;
+var currencyCount=0;
 var shapeValue=[3,4,5,6,7,8,9,10];
 var baseShapeCost=[20,300,5000,70000,110000,1300000,23000];
 var shapeCostMultiplyer=1.15;
