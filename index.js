@@ -1,7 +1,7 @@
 /* clicker game*/
 /* PT102 */
 /* Seamus Geoghegan */
-var currencyCount=0;
+var currencyCount=1;
 var shapeValue=[3,4,5,6,7,8,9,10];
 var baseShapeCost=[20,300,5000,70000,110000,1300000,23000];
 var shapeCostMultiplyer=1.15;
@@ -19,8 +19,12 @@ var idOfHex=3;
 var idOfsep=4;
 var idOfOct=5;
 
-var valOfShape=[3,4,5,6,7,8]
-
+var valOfTri=3;
+var valOfSqu=4;
+var valOfPen=5;
+var valOfHex=6;
+var valOfSep=7;
+var valOfOct=8;
 
 function currencyDisplay(){
     document.getElementById("currencyCo").innerHTML = "⌬"+String(currencyCount);
@@ -102,31 +106,28 @@ buyOct();
 buy_Auto_Mine();
 currencyDisplay();
 
-const element = document.getElementById("triSVGPos");
-element.addEventListener("click", triClick);
-
 function triClick(){
-    currencyCount = currencyCount+valOfShape[0];
+    currencyCount = currencyCount+3;
     currencyDisplay();
     console.log("triClick")
 }
 function squClick(){
-    currencyCount = currencyCount+valOfShape[1];
+    currencyCount = currencyCount+valOfSqu;
     currencyDisplay();
 }
 function penClick(){
-    currencyCount = currencyCount+valOfShape[2];
+    currencyCount = currencyCount+valOfPen;
     currencyDisplay();
 }
 function hexClick(){
-    currencyCount = currencyCount+valOfShape[3];
+    currencyCount = currencyCount+valOfHex;
     currencyDisplay();
 }
 function sepClick(){
-    currencyCount = currencyCount+valOfShape[4];
+    currencyCount = currencyCount+valOfSep;
     currencyDisplay();
 }
 function octClick(){
-    currencyCount = currencyCount+valOfShape[5];
+    currencyCount = currencyCount+valOfOct;
     currencyDisplay();
 }

@@ -16,6 +16,13 @@ object {
 	pointer-events: none;
 }
 
+.svg{
+  color: red;
+  position: absolute;
+  left: 100px;
+  top: 300px;
+}
+
 .shopBut{
     background-color: #ffffff;
     border: 6px black;
@@ -33,10 +40,8 @@ object {
   right: 0px;
 }
 
-#triSVG{
-  fill: red;
-}
 #triSVGPos{
+  fill: red;
   position: absolute;
   left: 0px;
   top: 100px;
@@ -45,10 +50,9 @@ object {
   overflow: visible;
   padding: 0px;
 }
-#squSVG{
-  fill: aquamarine;
-}
+
 #squSVGPos{
+  fill: aquamarine;
   position: absolute;
   left: 100px;
   top: 100px;
@@ -57,10 +61,9 @@ object {
   overflow: visible;
   padding: 0px;
 }
-#penSVG{
-  fill: rgb(88, 75, 143);
-}
+
 #penSVGPos{
+  fill: rgb(88, 75, 143);
   position: absolute;
   left: 200px;
   top: 100px;
@@ -69,10 +72,9 @@ object {
   overflow: visible;
   padding: 0px;
 }
-#hexSVG{
-  fill: rgb(204, 40, 122);
-}
+
 #hexSVGPos{
+  fill: rgb(204, 40, 122);
   position: absolute;
   left: 300px;
   top: 100px;
@@ -81,10 +83,9 @@ object {
   overflow: visible;
   padding: 0px;
 }
-#sepSVG{
-  fill: rgb(16, 206, 48);
-}
+
 #sepSVGPos{
+  fill: rgb(16, 206, 48);
   position: absolute;
   left: 400px;
   top: 100px;
@@ -93,10 +94,9 @@ object {
   overflow: visible;
   padding: 0px;
 }
-#octSVG{
-  fill: rgb(206, 76, 16);
-}
+
 #octSVGPos{
+  fill: rgb(206, 76, 16);
   position: absolute;
   left: 500px;
   top: 100px;
