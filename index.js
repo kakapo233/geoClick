@@ -1,7 +1,7 @@
 /* clicker game*/
 /* PT102 */
 /* Seamus Geoghegan */
-var currencyCount=1;
+var currencyCount=0;
 var shapeValue=[3,4,5,6,7,8,9,10];
 var baseShapeCost=[20,300,5000,70000,110000,1300000,23000];
 var shapeCostMultiplyer=1.15;
@@ -19,12 +19,8 @@ var idOfHex=3;
 var idOfsep=4;
 var idOfOct=5;
 
-var valOfTri=3;
-var valOfSqu=4;
-var valOfPen=5;
-var valOfHex=6;
-var valOfSep=7;
-var valOfOct=8;
+var valOfShape=[3,4,5,6,7,8]
+
 
 function currencyDisplay(){
     document.getElementById("currencyCo").innerHTML = "⌬"+String(currencyCount);
@@ -55,33 +51,46 @@ function buy_Auto_Mine(){
 }
 
 function shopTri(){
-    currencyCount= currencyCount-baseShapeCost[0];
-    currencyDisplay();
-    console.log("shopTri")
+    if(currencyCount >= baseShapeCost[0]){
+        currencyCount= currencyCount-baseShapeCost[0];
+        currencyDisplay();
+    }else{alert("you cant afford this")}
 }
 function shopSqu(){
-    currencyCount= currencyCount-baseShapeCost[1];
-    currencyDisplay();
+    if(currencyCount >= baseShapeCost[1]){
+        currencyCount= currencyCount-baseShapeCost[1];
+        currencyDisplay();
+    }else{alert("you cant afford this")}
 }
 function shopPen(){
-    currencyCount= currencyCount-baseShapeCost[2];
-    currencyDisplay();
+    if(currencyCount >= baseShapeCost[2]){
+        currencyCount= currencyCount-baseShapeCost[2];
+        currencyDisplay();
+    }else{alert("you cant afford this")}
 }
 function shopHex(){
-    currencyCount= currencyCount-baseShapeCost[3];
-    currencyDisplay();
+    if(currencyCount >= baseShapeCost[3]){
+        currencyCount= currencyCount-baseShapeCost[3];
+        currencyDisplay();
+    }else{alert("you cant afford this")}
 }
 function shopSep(){
-    currencyCount= currencyCount-baseShapeCost[4];
-    currencyDisplay();
+    if(currencyCount >= baseShapeCost[4]){
+        currencyCount= currencyCount-baseShapeCost[4];
+        currencyDisplay();
+    }else{alert("you cant afford this")}
 }
 function shopOct(){
-    currencyCount= currencyCount-baseShapeCost[5];
-    currencyDisplay();
+    if(currencyCount >= baseShapeCost[5]){
+        currencyCount= currencyCount-baseShapeCost[5];
+        currencyDisplay();
+    }else{alert("you cant afford this")}
 }
 function shopMine(){
-    currencyCount= currencyCount-baseShapeCost[6];
-    currencyDisplay();
+    if(currencyCount >= baseShapeCost[6]){
+        currencyCount= currencyCount-baseShapeCost[6];
+        currencyDisplay();
+    }else{alert("you cant affrd this")}
 }
 
 buyTri();
@@ -93,28 +102,31 @@ buyOct();
 buy_Auto_Mine();
 currencyDisplay();
 
+const element = document.getElementById("triSVGPos");
+element.addEventListener("click", triClick);
+
 function triClick(){
-    currencyCount = currencyCount+3;
+    currencyCount = currencyCount+valOfShape[0];
     currencyDisplay();
     console.log("triClick")
 }
 function squClick(){
-    currencyCount = currencyCount+valOfSqu;
+    currencyCount = currencyCount+valOfShape[1];
     currencyDisplay();
 }
 function penClick(){
-    currencyCount = currencyCount+valOfPen;
+    currencyCount = currencyCount+valOfShape[2];
     currencyDisplay();
 }
 function hexClick(){
-    currencyCount = currencyCount+valOfHex;
+    currencyCount = currencyCount+valOfShape[3];
     currencyDisplay();
 }
 function sepClick(){
-    currencyCount = currencyCount+valOfSep;
+    currencyCount = currencyCount+valOfShape[4];
     currencyDisplay();
 }
 function octClick(){
-    currencyCount = currencyCount+valOfOct;
+    currencyCount = currencyCount+valOfShape[5];
     currencyDisplay();
 }
