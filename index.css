@@ -76,7 +76,7 @@ object {
 #hexSVGPos{
   fill: rgb(204, 40, 122);
   position: absolute;
-  left: 300px;
+  left: 350px;
   top: 100px;
   height: 124px !important;
   width: 108px !important;
@@ -87,7 +87,7 @@ object {
 #sepSVGPos{
   fill: rgb(16, 206, 48);
   position: absolute;
-  left: 400px;
+  left: 500px;
   top: 100px;
   height: 124px !important;
   width: 108px !important;
@@ -98,7 +98,7 @@ object {
 #octSVGPos{
   fill: rgb(206, 76, 16);
   position: absolute;
-  left: 500px;
+  left: 700px;
   top: 100px;
   height: 124px !important;
   width: 108px !important;
