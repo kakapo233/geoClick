@@ -3,42 +3,48 @@
     <title>geoClick</title>
     <meta charset="utf-8">
     <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> 
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <script defer src="index.js"></script>
     <link rel="javascript" href="index.js">
 </head>
 
 <body>
-    
+
     <div id="div1">
         <button class="shopBut" id="triBut" onclick="shopTri()"></button>
-      
+
         <button class="shopBut" id="squBut" onclick="shopSqu()"></button>
-    
+
         <button class="shopBut" id="penBut" onclick="shopPen()"></button>
-    
+
         <button class="shopBut" id="hexBut" onclick="shopHex()"></button>
-     
+
         <button class="shopBut" id="sepBut" onclick="shopSep()"></button>
-   
+
         <button class="shopBut" id="octBut" onclick="shopOct()"></button>
-    
+
         <button class="shopBut" id="autoMineBut" onclick="shopMine()"></button>
     </div>
     <div id="div2">
     <p id="currencyCo"></p>
     </div>
-    <script src="triSVG.html"></script>
-    <object  id="triSVGPos" data="triSVG.html" onclick="triClick()" width="62px" height="62"> </object>
-    <script src="squSVG.html"></script>
-    <object  id="squSVGPos" data="squSVG.html" onclick="squClick()" width="62" height="62"> </object>
-    <script src="penSVG.html"></script>
-    <object  id="penSVGPos" data="penSVG.html" onclick="penClick()" width="101" height="96"> </object>
-    <script src="hexSVG.html"></script>
-    <object  id="hexSVGPos" data="hexSVG.html" onclick="hexClick()" width="108" height="124"> </object>
-    <script src="sepSVG.html"></script>
-    <object  id="sepSVGPos" data="sepSVG.html" onclick="sepClick()" width="139" height="136"> </object>
-    <script src="octSVG.html"></script>
-    <object  id="octSVGPos" data="octSVG.html" onclick="octClick()" width="150" height="150"> </object>
-    
+    <div id="triSVGPos"onclick="triClick()">
+        <object  data="triSVG.html"  width="62" height="62"> </object>
+    </div>
+    <div id="squSVGPos" onclick="squClick()">
+        <object data="squSVG.html" width="62" height="62"> </object>
+    </div>
+    <div id="penSVGPos" onclick="penClick()">
+        <object data="penSVG.html" width="101" height="96"> </object>
+    </div>
+    <div id="hexSVGPos" onclick="hexClick()">
+        <object  data="hexSVG.html" width="108" height="124"> </object>
+    </div>
+    <div id="sepSVGPos" onclick="sepClick()">
+        <object  data="sepSVG.html" width="139" height="136"> </object>
+    </div>
+    <div id="octSVGPos" onclick="octClick()">
+        <object  data="octSVG.html" width="150" height="150"> </object>
+    </div>
+
 </body>

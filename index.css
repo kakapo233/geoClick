@@ -11,6 +11,11 @@
 body{
     background-color: black;
 }
+
+object {
+	pointer-events: none;
+}
+
 .shopBut{
     background-color: #ffffff;
     border: 6px black;
