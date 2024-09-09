@@ -118,8 +118,6 @@ function shopMine(){
         currencyDisplay();
         numOfAM = numOfAM+1;
         autoMine();
-        console.log("minerbuy")
-        console.log(numOfAM)
     }else{alert("you cant afford this")}
 }
 
@@ -184,11 +182,9 @@ function octClick(){
 function autoMine(){
     timing=1000/numOfAM;
     setInterval(autoMiner, timing);
-    console.log("automine")
 }
 
 function autoMiner(){
     currencyCount = currencyCount+level;
     currencyDisplay();
-    console.log("AUTOMINER");
 }
