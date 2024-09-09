@@ -1,4 +1,4 @@
-/* clicker game*/
+/* clicker game */
 /* PT102 */
 /* Seamus Geoghegan */
 /* keeps track of how much money the player has */
@@ -24,7 +24,15 @@ var valOfHex=6;
 var valOfSep=7;
 var valOfOct=8;
 
+/* asks the player for there name */
+var name=prompt("WHAT IS YOUR NAME");
+
 /*updates the amount of money displayed */
+function playerName(){
+    document.getElementById("playerName").innerHTML = name;
+}
+
+/* displays the players name */
 function currencyDisplay(){
     document.getElementById("currencyCo").innerHTML = "⌬"+String(currencyCount);
 }
@@ -121,7 +129,7 @@ function shopMine(){
     }else{alert("you cant afford this")}
 }
 
-/* start up */
+/* start up calls. functions thatgenerates button text starts currency display */
 shopTri();
 buyTri();
 buySqu();
@@ -131,8 +139,9 @@ buySep();
 buyOct();
 buy_Auto_Mine();
 currencyDisplay();
+playerName();
 
-/* runs when you click on a shape */
+/* runs when you click on a shape and updates currency count */
 function triClick(){
     currencyCount = currencyCount+valOfTri;
     currencyDisplay();

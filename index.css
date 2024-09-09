@@ -1,34 +1,38 @@
+/* clicker game */
+/* PT102 */
+/* Seamus Geoghegan */
 /* sets up the fonts */
 @font-face {
-    font-family: "OpenDyslexic3-Regular";
-    src: url("fonts/OpenDyslexic3-Regular.ttf");
+  font-family: "OpenDyslexic3-Regular";
+  src: url("fonts/OpenDyslexic3-Regular.ttf");
 }
 
 @font-face {
-    font-family: "OpenDyslexic3-Bold";
-    src: url("fonts/OpenDyslexic3-Bold.ttf");
+  font-family: "OpenDyslexic3-Bold";
+  src: url("fonts/OpenDyslexic3-Bold.ttf");
 }
 
 /*back ground colour */
 body{
-    background-color: black;
+  background-color: black;
 }
 
-/* styles shop buttons*/
+/* styles shop buttons */
 .shopBut{
-    background-color: #ffffff;
-    border: 6px black;
-    color: rgb(0, 0, 0);
-    width: 275px;
-    height: 100px;
+  background-color: #ffffff;
+  border: 2px solid black;
+  color: rgb(0, 0, 0);
+  width: 275px;
+  height: 100px;
   text-align: center;
+  line-height: 1.4;
   text-decoration: none;
   font-family: "OpenDyslexic 3";
   font-size: 32px;
   display: block;
 }
 
-/* positions div1*/
+/* positions div1 */
 #div1{
   position: absolute;
   right: 0px;
@@ -89,8 +93,20 @@ body{
   padding: 0px;
 }
 
-/* curreny count style*/
+/* curreny count style */
 #currencyCo{
+  font-family: "OpenDyslexic 3";
   color: rgb(255, 255, 255);
   font-size: 20px;
+  position: absolute;
+  top: 30px;
+}
+
+/* player name style */
+#playerName{
+  font-family: "OpenDyslexic 3";
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  position: absolute;
+  top: 2px;
 }
